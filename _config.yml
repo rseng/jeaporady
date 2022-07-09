@@ -1,0 +1,45 @@
+lang: en
+title: Jeaporady
+description: An online, static and customizable Jeaporady game!
+
+url: ""
+baseurl: "/jeaporady"
+
+logo: /assets/img/logo.png
+permalink: /:year-:month-:day-:title/
+
+# social media
+github_org: rseng
+twitter: vsoch
+twitter_card: summary
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+
+exclude: 
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+livereload: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      show_sidebar: true
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      show_sidebar: true
+
+
+markdown: kramdown
+highlighter: rouge

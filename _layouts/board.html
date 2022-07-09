@@ -1,0 +1,97 @@
+---
+layout: default
+---
+
+<div class="jeop">
+  <categories-component
+    :categories="categories"
+    :is-double="isDouble"
+    :is-final="isFinal"
+    @click-question="onClickQ" >
+  </categories-component>
+  
+  <toggle
+    :is-double="isDouble"
+    :is-final="isFinal"
+    @click-double="onClickIsDouble"
+    @click-final="onClickIsFinal" >
+  </toggle>
+  
+  <question
+    :content="qContent"
+    :is-daily-double="!!activeQ.isDailyDouble"
+    @click="onClickQToggle" >
+  </question>
+</div>
+
+<script id="tmpl-category" type="text/x-template">
+
+  <div class="category">
+    
+    <p class="category__title"
+      :class="{
+        'category__title--active': isActive
+      }"
+      @click="onClickTitle">
+      <span v-html="title"></span>
+    </p>
+    
+    <p class="category__price"
+      :class="{
+        'category__price--hidden': q.isAnswered
+      }"
+      v-for="q in qs"
+      v-html="'$' + q.val"
+      @click="onClickQ(q)" >
+    </p>
+    
+  </div>
+
+</script>
+
+<script id="tmpl-categories" type="text/x-template">
+
+  <div class="categories"
+    :class="{
+      'categories--hidden': isFinal
+    }" >
+    
+    <category
+      :qs="qs"
+      :title="title"
+      v-for="(qs, title) in categories[round]"
+      @click-question="onClickQ" >
+    </category>
+    
+  </div>
+
+</script>
+
+<script id="tmpl-question" type="text/x-template">
+  <div class="question"
+    :class="{
+      'question--active': !!content,
+      'question--dd': isDailyDouble
+    }" >
+    <p class="question__question" v-html="content"></p>
+    
+    <img class="question__dd" src="https://pbs.twimg.com/media/DgWMH_GVQAAR5fA.jpg" />
+    
+    <div class="question__toggle" @click="onClick"></div>
+  </div>
+</script>
+
+<script id="tmpl-toggle" type="text/x-template">
+  <div class="toggle">
+    <div class="toggle__toggle toggle__toggle--double"
+      :class="{ 'toggle__toggle--active': isDouble }"
+      @click="onClickDouble" >
+    </div>
+    <div class="toggle__toggle toggle__toggle--final"
+      :class="{ 'toggle__toggle--active': isFinal }"
+      @click="onClickFinal" >
+    </div>
+  </div>
+</script>
+
+{% include scripts.html %}
