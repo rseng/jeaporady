@@ -24,6 +24,7 @@ exclude:
   - vendor
 
 livereload: true
+repo: https://github.com/rseng/jeaporady
 
 defaults:
   -
