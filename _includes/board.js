@@ -28,16 +28,12 @@ var rawCategories = {
       val: {{ q.points }} } {% if forloop.last %}{% else %},{% endif %}{% endfor %}]{% if forloop.last %}{% else %},{% endif %}
     {% endfor %} },
   'final': { {% for entry in data.final %}
-    '{{ entry.name }}': [{% for q in entry.questions %}
-    {
-      a: "{{ q.A }}",
-      {% if q.img %}img: '{{ q.img }}',{% endif %}
-      q: "{{ q.Q }}",
-      {% if q.isDailyDouble %}isDailyDouble: true,{% endif %}
-      id: '{{ q.id }}' } {% if forloop.last %}{% else %},{% endif %}{% endfor %}]{% if forloop.last %}{% else %},{% endif %}
-    {% endfor %} }
+    '{{ entry.name }}': {
+      a: "{{ entry.A }}",
+      q: "{{ entry.Q }}",
+      id: '{{ entry.id }}' }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
+   }
 }
-
 var categories = {
   double: _processCategory(Object.keys(rawCategories.double), rawCategories.double, 20, {}),
   final: rawCategories.final,

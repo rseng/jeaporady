@@ -189,9 +189,6 @@ board:
       - Q: The U.S. military calls this 2-word exercise using the arms & legs a 'side-straddle hop'
         A: a jumping jack
         points: 2000
-      - Q: 
-        A: 
-        points: 400
   - name: TV Moms & Dads
     questions:
       - Q: In 2010 Entertainment Weekly named this dad the greatest character of the last 20 years--D\'oh!
@@ -211,12 +208,10 @@ board:
         points: 2000
   final:
   - name: U.S. Government Agencies
-    questions:
-      - Q: Its seal shows a 16-pointed star, symbolizing the search for information, on a shield symbolizing defense
-        A: C.I.A
-        id: '30-0'
-  - name: The Oscaprs
-    questions:
-      - Q: Last name of the only family to have a father & daughter receive Academy Award nominations for Best Director
-        id: '30-1'
-        A: The Copollas<br/>(Francis & Sofia)
+    Q: Its seal shows a 16-pointed star, symbolizing the search for information, on a shield symbolizing defense
+    A: C.I.A
+    id: '30-0'
+  - name: The Oscars
+    Q: Last name of the only family to have a father & daughter receive Academy Award nominations for Best Director
+    id: '30-1'
+    A: The Copollas<br/>(Francis & Sofia)
