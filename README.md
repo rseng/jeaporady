@@ -49,19 +49,24 @@ and you can decide whether to use teams or individuals. I'll summarize a simple 
 
 1. Choose a team or person to start first.
 2. They can choose a category and dollar amount, and are asked the question.
-3. At the end of the host reading the question they have 5 seconds to respond.
+3. At the end of the host reading the question the host can allow up to some amount of time for someone to respond. This can be explicitly timed, or what I do is wait until it feels like nobody is responding, then I sing the Jeaporady music and the end of the song means timeis up.
 4. The first to buzz in gets to answer - in the form of a question "Who is..." or "What is.." etc.
  - If correct, the team gets the dollar amount, and to choose the next question.
- - If incorrect, you can either deduct the amount and let others try, or it might be easier to just give others a chance to answer.
+ - If incorrect, you should deduct the amount and others are given a chance to answer.
  - If nobody gets it, the host reads the answer and then the last person correct gets to choose the question.
-5. Daily double (I don't think) is implemented yet, but if/when it is, the team gets to put in a wager for some amount.
+5. Daily double can appear a minimum of once, and a maximum of three times. There can only be one daily double in the first round (single) and then up to two in the double round. You'll need to manually set `isDailyDouble` on the questions you want.
 6. The final question has a category, and teams get to put down an amount to guess, and then they win or lose that amount. They have 30 seconds to guess, etc.
 
+### Writing Games
 
-## TODO
+To write a game, the easiest thing to do is copy a file in `_data/boards` to your own custom name. For each game,
+you are required to have three rounds:
 
-- add workflow that looks for changed file in data, validates
-- remember how the game works so I could host it :)
+ - single
+ - double
+ - final
+ 
+Each of "single" and "double" requires 6 columns (categories) each with (recommended) 5 questions. If you change the number of questions the board will grow appropriately, but make sure you have the same number across each one. This will be tested in the automation workflow. You also are required to have (under the "double" round one `isDailyDouble` question. The final question is randomly chosen from the set you provide, so make sure to provide at least two. It's recommnded to run new sets of questions on your localhost, and only to only add your game to the website after that (to ensure nobody can cheat).
 
 ## Thanks
 
