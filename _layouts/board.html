@@ -74,9 +74,7 @@ layout: default
       'question--dd': isDailyDouble
     }" >
     <p class="question__question" v-html="content"></p>
-    
-    <img class="question__dd" src="https://pbs.twimg.com/media/DgWMH_GVQAAR5fA.jpg" />
-    
+    <img class="question__dd" src='{{ site.baseurl }}/assets/img/daily-double.png' />
     <div class="question__toggle" @click="onClick"></div>
   </div>
 </script>

@@ -12,113 +12,113 @@ board:
        A: Barrack Obama 
        points: 600
      - Q: In 1731 the USA\'s first circulating library was founded in this city
-       A: Philedelphia
+       A: Philadelphia
        points: 800
      - Q: Not surprisingly, the first architecture dept. at a college was established at this Boston-area school in 1865
        A: MIT (Massachusetts Institute of Technology
        points: 1000
   - name: Copping Out
     questions:
-      - Q: "Reach for the sky! In 2010 Tom Hanks returned for a third time to provide the voice of this sheriff"
-        A: "Woody"
+      - Q: Reach for the sky! In 2010 Tom Hanks returned for a third time to provide the voice of this sheriff
+        A: Woody
         points: 200
-      - Q: No jokering around! Gary Oldman's James Gordon got a promotion to commissioner in this 2008 film
-        A: "The Dark Knight"
+      - Q: No jokering around! Gary Oldman\'s James Gordon got a promotion to commissioner in this 2008 film
+        A: The Dark Knight
         points: 400
-      - Q: Let's Segway to this Kevin James title guy, a New Jersey 'Mall Cop'
-        A: "Paul Blart"
+      - Q: Let\'s Segway to this Kevin James title guy, a New Jersey "Mall Cop"
+        A: Paul Blart
         points: 600
-      - Q: "Mais oui! In 2006 Monsieur Steve Martin played this--bumbling detective"
-        A: "Inspector Clouseua"
+      - Q: Mais oui! In 2006 Monsieur Steve Martin played this--bumbling detective
+        A: Inspector Clouseua
         points: 800
-      - Q: He did a 'Hitch' as Del Spooner, a robot-hating Chicago cop investigating a murder in 2004's 'I, Robot'
-        A: "Will Smith"
+      - Q: He did a "Hitch\' as Del Spooner, a robot-hating Chicago cop investigating a murder in 2004\'s "I, Robot"
+        A: Will Smith
         points: 1000
   - name: Historical America
     questions:
       - Q: John Hancock signed this in 1776
         A: Declaration of Independence
         points: 200
-      - Q: "This was banned in Mississippi in 1907 and wouldn't be legal again until 1966"
-        A: "Alcohol"
+      - Q: This was banned in Mississippi in 1907 and wouldn\'t be legal again until 1966
+        A: Alcohol
         points: 400
-      - Q: "This U.S. State was once an independent republic"
-        A: "Texas"
+      - Q: This U.S. State was once an independent republic
+        A: Texas
         points: 600
-      - Q: "The Pentagon was constructed during this war"
-        A: "World War II"
+      - Q: The Pentagon was constructed during this war
+        A: World War II
         points: 800
-      - Q: "This was the first American city to have a public school system"
-        A: "Boston"
+      - Q: This was the first American city to have a public school system
+        A: Boston
         points: 1000
   - name: Hysterical America
     questions:
-    - Q: "Harold and Kumar made it to White Castle, but had to escape from here in their 2008 sequel"
-      A: "Guantanamo Bay"
+    - Q: Harold and Kumar made it to White Castle, but had to escape from here in their 2008 sequel
+      A: Guantanamo Bay
       points: 200
-    - Q: In 1992, 'Bohemian Rhapsody' was back on the Billboard Charts thanks to this movie
-      A: "Wayne's World"
+    - Q: In 1992, "Bohemian Rhapsody" was back on the Billboard Charts thanks to this movie
+      A: Wayne\'s World
       points: 400
-    - Q: Peter, the main character in 'Forgetting Sarah Marshall' is writing a musical about this character from classic literature
-      A: "Dracula"
+    - Q: Peter, the main character in "Forgetting Sarah Marshall" is writing a musical about this character from classic literature
+      A: Dracula
       points: 600
-    - Q: "In 1989, John Candy beat out Danny DeVito to play this dead beat uncle"
-      A: "(Uncle) Buck"
+    - Q: In 1989, John Candy beat out Danny DeVito to play this dead beat uncle
+      A: (Uncle) Buck
       points: 800
-    - Q: "In an effort to end childish jokes, scientists from Futurama renamed Uranus to this in the year 2620"
-      A: "Urectum"
+    - Q: In an effort to end childish jokes, scientists from Futurama renamed Uranus to this in the year 2620
+      A: Urectum
       points: 1000
   - name: In the red
     questions:
-      - Q: A poem by Robert Burns says that his love is like this red flower 'that's newly sprung in June'
-        A: "a rose"
+      - Q: A poem by Robert Burns says that his love is like this red flower "that\'s newly sprung in June"
+        A: a rose
         points: 200
-      - Q: "Wally the Green Monster is the mascot of this Major League Baseball team"
-        A: "Boston Red Sox"
+      - Q: Wally the Green Monster is the mascot of this Major League Baseball team
+        A: Boston Red Sox
         points: 400
-      - Q: "If you're caught up in this sticky sounding stuff, you're in a bureaucratic mess"
-        A: "Red Tape"
+      - Q: If you\'re caught up in this sticky sounding stuff, you\'re in a bureaucratic mess
+        A: Red Tape
         points: 600
-      - Q: "Stephen Crane was 25 when he wrote this novel, 'An Episode of the Civil War'"
-        A: "The Red Badge of Courage"
+      - Q: Stephen Crane was 25 when he wrote this novel, "An Episode of the Civil War"
+        A: The Red Badge of Courage
         points: 800
-      - Q: "In Russian, this Moscow area is known as Krasnaya Ploshchad"
-        A: "The Red Square"
+      - Q: In Russian, this Moscow area is known as Krasnaya Ploshchad
+        A: The Red Square
         points: 1000
   - name: I Lands
     questions:
-      - Q: "2 of its islands are Sicily & Sardinia"
-        A: "Italy"
+      - Q: 2 of its islands are Sicily & Sardinia
+        A: Italy
         points: 200
-      - Q: "The North Atlantic Ocean holds this country, home to Europe's largest glacier"
-        A: "Iceland"
+      - Q: The North Atlantic Ocean holds this country, home to Europe\'s largest glacier
+        A: Iceland
         points: 400
-      - Q: "The cathedral city of Cork is the second-largest city in this country"
-        A: "Ireland"
+      - Q: The cathedral city of Cork is the second-largest city in this country
+        A: Ireland
         points: 600
-      - Q: "Fittingly, the national soccer team of this African nation is known as the Elephants"
-        A: "Ivory Coast"
+      - Q: Fittingly, the national soccer team of this African nation is known as the Elephants
+        A: Ivory Coast
         points: 800
-      - Q: "More than 17,500 islands, including Sumatra and Java, make up this equator-straddling country"
-        A: "Indonesia"
+      - Q: More than 17,500 islands, including Sumatra and Java, make up this equator-straddling country
+        A: Indonesia
         points: 1000
   double:
   - name: Ends with the Same 2 Letters
     questions:
-      - Q: This word describing the numbers 3 & 15 can also mean 'eccentric'
+      - Q: This word describing the numbers 3 & 15 can also mean "eccentric"
         A: odd
         points: 400
       - Q: Someone from Helsinki
         A: A Finn
         points: 800
-      - Q: This sudden indulgence in an activity may follow 'spending'
+      - Q: This sudden indulgence in an activity may follow "spending"
         A: spree
         points: 1200
       - Q: Goodbye!
         A: Farewell<br/>(toodle&#8209;oo)
         isDailyDouble: true
         points: 1600
-      - Q: 'A marsh or bog, or any muddled situation'
+      - Q: A marsh or bog, or any muddled situation
         A: morass 
         points: 2000
   - name: Who Makes It
@@ -158,10 +158,10 @@ board:
   - name: Measure for Measure
     questions:
       - Q: It\'s the number of degrees in half of a circle
-        A: 180
+        A: "180"
         points: 400
       - Q: The number of karets in pure gold
-        A: 24
+        A: "24"
         points: 800
       - Q: One of these metric units equals 2.2 pounds
         A: kilogram
@@ -186,7 +186,7 @@ board:
       - Q: It\'s another word for news writing
         A: Journalism
         points: 1600
-      - Q: The U.S. military calls this 2-word exercise using the arms & legs a 'side-straddle hop'
+      - Q: The U.S. military calls this 2-word exercise using the arms & legs a "side-straddle hop"
         A: a jumping jack
         points: 2000
   - name: TV Moms & Dads
@@ -204,7 +204,7 @@ board:
         A: Jon Voight
         points: 1600
       - Q: The Carol Burnett Show
-        A: In the '80s Vicki Lawrence was the matriarch on 'Mama's Family', based on a skit from this variety show
+        A: In the \'80s Vicki Lawrence was the matriarch on "Mama\'s Family" based on a skit from this variety show
         points: 2000
   final:
   - name: U.S. Government Agencies
