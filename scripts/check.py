@@ -110,7 +110,7 @@ def check_board(filename):
         number = len(board[roundname])
         if number != 6:
             sys.exit(
-                f"Round {roundname} in {filname} is required to have 6 categories (columns) but found {number}"
+                f"Round {roundname} in {filename} is required to have 6 categories (columns) but found {number}"
             )
     # Final needs 2 or more
     if len(board["final"]) < 2:
@@ -119,28 +119,45 @@ def check_board(filename):
     # Finally validate with jsonschema
     jsonschema.validate({"board": board}, schema=board_schema)
 
+    # Make sure number of questions consistent
+    counts = {"single": 0, "double": 0}
+
     # Make sure we only see one daily double
-    dd = 0
+    dd = {"single": 0, "double": 0}
 
     # Each Q and A and key cannot have quotes, and if single quote included, must be escaped
     for roundname in ["single", "double"]:
         boards = board[roundname]
         for entry in boards:
+            # Number questions per column need to be consistent
+            if not counts[roundname]:
+                counts[roundname] = len(entry["questions"])
+            if counts[roundname] != len(entry["questions"]):
+                sys.exit(
+                    "Expecting {count[roundname]} questions in round {roundname} for {entry['name']} but found len(entry['questions'])."
+                )
             check_quotes(entry["name"])
             for q in entry["questions"]:
                 check_quotes(q["Q"])
                 check_quotes(q["A"])
                 if "isDailyDouble" in q and q["isDailyDouble"] == True:
-                    dd += 1
+                    dd[roundname] += 1
 
     for q in board["final"]:
         check_quotes(q["name"])
         check_quotes(q["Q"])
         check_quotes(q["A"])
 
-    if dd != 1:
+    # One daily double is required in the single round
+    if dd["single"] != 1:
         sys.exit(
-            f"One 'isDailyDouble' is required in the single or double round! Found {dd}"
+            f"One 'isDailyDouble' is required in the single, round! Found {dd['single']}"
+        )
+
+    # Up to two are allowed in the double round
+    if dd["double"] > 2:
+        sys.exit(
+            f"Up to two 'isDailyDouble' can be present in the double round! Found {dd['double']}"
         )
 
 

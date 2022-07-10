@@ -58,6 +58,7 @@ board:
       points: 200
     - Q: In 1992, "Bohemian Rhapsody" was back on the Billboard Charts thanks to this movie
       A: Wayne\'s World
+      isDailyDouble: true
       points: 400
     - Q: Peter, the main character in "Forgetting Sarah Marshall" is writing a musical about this character from classic literature
       A: Dracula
