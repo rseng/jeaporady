@@ -249,7 +249,6 @@ var jeop = new Vue({
 
       if (this.activeQ.isDailyDouble) {
         this.activeQ.isDailyDouble = false;
-
         return;
       }
 

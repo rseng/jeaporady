@@ -1,0 +1,14 @@
+name: Check Questions
+
+on: [pull_request]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Check Boards
+      run: |
+        pip install pyyaml jsonschema
+        python scripts/check.py
+    

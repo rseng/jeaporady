@@ -127,6 +127,7 @@ p {
 .question__dd {
   height: 100%;
   width: 100%;
+  z-index; 1000;
   -o-object-fit: cover;
      object-fit: cover;
   pointer-events: none;

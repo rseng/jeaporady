@@ -13,24 +13,24 @@ var rawCategories = {
   'single': { {% for entry in data.single %}
     '{{ entry.name }}': [{% for q in entry.questions %}
     {
-      a: "{{ q.A }}",
+      a: '{{ q.A }}',
       {% if q.img %}img: '{{ q.img }}',
-      {% endif %}q: "{{ q.Q }}",
+      {% endif %}q: '{{ q.Q }}',
       val: {{ q.points }} } {% if forloop.last %}{% else %},{% endif %}{% endfor %}]{% if forloop.last %}{% else %},{% endif %}
     {% endfor %} },
   'double': { {% for entry in data.double %}
     '{{ entry.name }}': [{% for q in entry.questions %}
     {
-      a: "{{ q.A }}",
+      a: '{{ q.A }}',
       {% if q.img %}img: '{{ q.img }}',{% endif %}
-      q: "{{ q.Q }}",
+      q: '{{ q.Q }}',
       {% if q.isDailyDouble %}isDailyDouble: true,{% endif %}
       val: {{ q.points }} } {% if forloop.last %}{% else %},{% endif %}{% endfor %}]{% if forloop.last %}{% else %},{% endif %}
     {% endfor %} },
   'final': { {% for entry in data.final %}
     '{{ entry.name }}': {
-      a: "{{ entry.A }}",
-      q: "{{ entry.Q }}",
+      a: '{{ entry.A }}',
+      q: '{{ entry.Q }}',
       id: '{{ entry.id }}' }{% if forloop.last %}{% else %},{% endif %}{% endfor %}
    }
 }
