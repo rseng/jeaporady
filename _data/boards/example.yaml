@@ -171,7 +171,7 @@ board:
         A: acres
         points: 1600
       - Q: A 150-ton blue whale weighs this many pounds
-        A: 300,000
+        A: "300,000 pounds"
         points: 2000
   - name: J Walking
     questions:
@@ -193,7 +193,7 @@ board:
   - name: TV Moms & Dads
     questions:
       - Q: In 2010 Entertainment Weekly named this dad the greatest character of the last 20 years--D\'oh!
-        A: Homer Simposon
+        A: Homer Simpson
         points: 400
       - Q: This dad had a rather large extended family but only 2 kids, Meadow & A.J.
         A: Tony Soprano
@@ -204,8 +204,8 @@ board:
       - Q: On Showtime this Oscar winner plays Ray Donovan\'s charismatic ex-con father, Mickey
         A: Jon Voight
         points: 1600
-      - Q: The Carol Burnett Show
-        A: In the \'80s Vicki Lawrence was the matriarch on "Mama\'s Family" based on a skit from this variety show
+      - Q: In the \'80s Vicki Lawrence was the matriarch on "Mama\'s Family" based on a skit from this variety show 
+        A: The Carol Burnett Show
         points: 2000
   final:
   - name: U.S. Government Agencies

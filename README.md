@@ -55,7 +55,7 @@ and you can decide whether to use teams or individuals. I'll summarize a simple 
  - If incorrect, you should deduct the amount and others are given a chance to answer.
  - If nobody gets it, the host reads the answer and then the last person correct gets to choose the question.
 5. Daily double can appear a minimum of once, and a maximum of three times. There can only be one daily double in the first round (single) and then up to two in the double round. You'll need to manually set `isDailyDouble` on the questions you want.
-6. The final question has a category, and teams get to put down an amount to guess, and then they win or lose that amount. They have 30 seconds to guess, etc.
+6. The final question has a category, and teams get to put down an amount to guess, and then they win or lose that amount. They can wager up to their current total score, and they must make the wager after being shown the category, but before the question. They have 30 seconds to guess, etc.
 
 ### Writing Games
 
