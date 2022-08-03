@@ -1,8 +1,8 @@
-# Research Software Engineer Jeopardy!
+# Research Software Engineer Jeooooopararardy!
 
-This is an interactive Jeopardy game for research software engineers! 
+This is an interactive trivia game for research software engineers! 
 
-**under development**
+![assets/img/game.png](assets/img/game.png)
 
 ## Usage
 
@@ -16,7 +16,7 @@ file to [boards](boards) that will ensure it renders at the URL. As an example:
 
 We will eventually have testing to ensure that the data is formatted correctly, etc.
 
-## How will it work?
+## How does it work?
 
 ### Hosting
 
@@ -49,7 +49,7 @@ and you can decide whether to use teams or individuals. I'll summarize a simple 
 
 1. Choose a team or person to start first.
 2. They can choose a category and dollar amount, and are asked the question.
-3. At the end of the host reading the question the host can allow up to some amount of time for someone to respond. This can be explicitly timed, or what I do is wait until it feels like nobody is responding, then I sing the Jeaporady music and the end of the song means timeis up.
+3. At the end of the host reading the question the host can allow up to some amount of time for someone to respond. This can be explicitly timed (5 seconds), or what I do with family is wait until it feels like nobody is responding.
 4. The first to buzz in gets to answer - in the form of a question "Who is..." or "What is.." etc.
  - If correct, the team gets the dollar amount, and to choose the next question.
  - If incorrect, you should deduct the amount and others are given a chance to answer.

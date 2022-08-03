@@ -1,2 +1,4 @@
 - name: Example Board
   board: example
+- name: RSEng 1
+  board: rseng-1

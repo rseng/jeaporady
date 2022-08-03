@@ -1,0 +1,218 @@
+board:
+  single:
+  - name: Contain This!
+    questions:
+     - Q: This 2013 startup was the first to expose Linux virtualization as an API, and no folks we aren’t talking about pants.
+       A: Docker
+       points: 200
+     - Q: This container technology entered the scene in 2018 and presented as a rootless shoe-in for Docker.
+       A: Podman
+       points: 400
+     - Q: This is the maximum number of layers allowed for a Docker image.
+       isDailyDouble: true
+       A: "127"
+       points: 600
+     - Q: The read only file format "SIF" for Singularity containers is based on what underlying filesystem?
+       A: squashfs
+       points: 800
+     - Q: This Linux kernel feature allows containers to isolate resource usage, including CPU, memory, disk I/O, and networking for a collection of processes.
+       A: cgroups
+       points: 1000
+  - name: Snakes
+    questions:
+     - Q: To calculate the mean using the standard library, you can import the "mean" function from this standard library module.
+       A: statistics
+       points: 200
+     - Q: This infamous Python feature makes it so only one thread is allows to control the Python interpreter.
+       A: The GIL (Global Interpreter Lock)
+       points: 400
+     - Q: This new feature that acts like a switch statement was added to Python 3.10
+       A: Structural Pattern Matching
+       points: 600
+     - Q: This is the author of the poem "The Zen of Python," which you can see by typing "import this" in your Python console.
+       A: Tim Peters
+       points: 800
+     - Q: This function decorator to cache function return values up to a maximum size was added in Python 3.2
+       A: functools.lru_cache
+       points: 1000 
+  - name: Do you git it?
+    questions:
+     - Q: This reference points to the branch or commit your working directory state is based on.
+       A: HEAD
+       points: 200
+     - Q: This flag needs to be added to "git checkout" to create a new branch
+       A: "-b or --branch"
+       points: 400
+     - Q: This file gets edited when you use "git add" to stage changes for a commit
+       A: index
+       points: 600
+     - Q: This kind of clone is useful to only get the latest revision of a repository.
+       A: shallow
+       points: 800
+     - Q: You\'ll find these three types of artifacts (subfolders) in the "objects" folder of the .git directory
+       A: commit, tree and blob
+       points: 1000 
+  - name: Software History
+    questions:
+     - Q: This was the original name of the library now known as "curl" released in 1996.
+       A: httpget
+       points: 200
+     - Q: This company was the first to build what we now consider an operating system in 1956.
+       A: General Motors, the GM-NAA I/O for its IBM 704
+       points: 400
+     - Q: MS-DOS is based on Q-DOS, which Microsoft acquired from this computer company in the early 1990s.
+       A: Seattle Computer Products
+       points: 600
+     - Q: This famous French research institute was created in 1967 to focus on computer science and applied mathematics, and hosts a large population of software engineers in modern day.
+       A: INRIA (National Institute for Research in Digital Science and Technology)
+       points: 800
+     - Q: Released in 1962, this text editor created for Digital Equipment Corporation computers is often considered the earliest text editor.
+       A: TECO (Text Editor & Corrector)
+       points: 1000 
+  - name: So Bashful!
+    questions:
+     - Q: It it really bashful, or something else? This is the full name or meaning of "bash" released first in 1989.
+       A: The Bourne Again shell.
+       points: 200
+     - Q: The author of bash
+       A: Brian Fox
+       points: 400
+     - Q: This security hole in Bash dating from version 1.03 (August 1989), was discovered in early September 2014. 
+       A: Shellshock.
+       points: 600
+     - Q: Brace expansion, allowing for expanding statements like "echo {1..10}" into a full list is a feature copied from this other well-known shell.
+       A: C Shell (csh)
+       points: 800
+     - Q: This bash command allows for catching signals and executing code when they occur.
+       A: trap
+       points: 1000 
+  - name: Operating Systems
+    questions:
+     - Q: This company created what was originally Unix in 1969.
+       A: AT&T
+       points: 200
+     - Q: This practice of sharing a computing resource amount many users at the same time emerged as the prominent model of computing in the 1970s.
+       A: time-sharing
+       points: 400
+     - Q: Unix was originally written in this programming language.
+       A: Assembly
+       points: 600
+     - Q: This part of the operating system provides the most basic level of control over all of the computer\'s hardware devices.
+       A: kernel
+       points: 800
+     - Q: The first formal parameter of type double will be passed on this register according to the x86_64 ABI specification.
+       A: "%xmm0"
+       points: 1000 
+  double:
+  - name: High Performance Putering
+    questions:
+     - Q: This NSF-funded virtual organization coordinates the sharing of supercomputers and other data analysis resources with researchers nationally to support science?
+       A: XSEDE (the Extreme Science and Engineering Discovery Environment)
+       points: 400
+     - Q: This algorithm drives scheduling decisions for not just operating systems, but also job managements tools such as slurm
+       A: fair-share
+       points: 800
+     - Q: This bread and butter HPC technology was first discussed in the summer of 1991 at a mountain retreat in Austria.
+       A: MPI (message passing interface)
+       points: 1200
+     - Q: This national lab housed the first winner of the TOP500 list in June 1993.
+       A: Los Alamos National Laboratory (CM-5/1024, Thinking Machines Corporation).
+       points: 1600
+     - Q: The potential speedup of an algorithm on a parallel computing platform is determined by which law?
+       A: Amdahl’s law
+       points: 2000
+  - name: Language Wars!
+    questions:
+     - Q: the R programming language was closely modeled on this language developed at Bell Labs is the mid 1970s.
+       A: S Language for Statistical Computing
+       points: 400
+     - Q: This programming language developed by Brendan Eich in 1995 was originally developed for Netscape 2.
+       A: JavaScript
+       points: 800
+     - Q: This controversial, missing feature was added to the Go programming language for version 1.18 in 2020.
+       A: generics
+       points: 1200
+     - Q: This was the original name of the JAVA programming language
+       A: Oak (named after an oak tree that was grown outside founder James Gosling\'s office).
+       points: 1600
+     - Q: The dead moth that we might call the first "bug" was found by Grace Hopper and her team in what computer system.
+       isDailyDouble: true
+       A: Relay 70 of Harvard’s Mark II computer system
+       points: 2000 
+  - name: Disambiguation
+    questions:
+     - Q: A point at which a function takes an infinite value, or a container technology.
+       A: Singularity
+       points: 400
+     - Q: A set of provided services and servers, or water droplets in the sky.
+       A: cloud
+       points: 800
+     - Q: An operating system or a number in spanish
+       A: DOS (dos)
+       points: 1200
+     - Q: This term describes a vector operation and a popular web requests library.
+       A: curl
+       points: 1600
+     - Q: An essential part of a computer, or a fuzzy male animal.
+       A: RAM
+       points: 2000 
+  - name: Number Crunching
+    questions:
+     - Q: This numpy feature allows you to multiply arrays of different sizes.
+       A: broadcasting
+       points: 400
+     - Q: This recent Fields Metal recipient dropped out of high school to become a poet said he was “was pretty good at most subjects except math."
+       A: June Hu
+       points: 800
+     - Q: These are the first 10 digits of PI
+       A: "3.141592653"
+       points: 1200
+     - Q: This binary type that uses floating point numbers to represent numbers in pairs of binary values shares its name with a famous hamburger chain menu item.
+       A: The In and Out "Double double"
+       points: 1600
+     - Q: This number system extends complex numbers, and was first described by the Irish mathematician William Rowan Hamilton in 1843  and applied to mechanics in three-dimensional space.
+       A: quaternion
+       points: 2000 
+  - name: 15 Standards
+    questions:
+     - Q: This specification underlies the logic and interactions for container registries like Docker Hub and GitHub packages.
+       A: distribution spec
+       points: 400
+     - Q: This internet leader wrote the first version of HTML in 1993
+       A: Tim Berners-Lee
+       points: 800
+     - Q: Originally released in 2003, this file format has become the bread and butter of neuroimaging software.
+       A: nifti
+       points: 1200
+     - Q: This IEEE standard helps compatibility and portability between operating systems.
+       A: POSIX (The Portable Operating System Interface)
+       points: 1600
+     - Q: The C++ Standards committee last met in 2020 in this famous city/country.
+       A: Prague, Czech Republic
+       points: 2000 
+  - name: Har Har Jargon
+    questions:
+     - Q: LGTM
+       A: Looks good to me
+       points: 400
+     - Q: The practice of (typically a team) to reflect on what they did in response to a recent incident.
+       A: Postmortem
+       points: 800
+     - Q: A method of debugging code by articulating a problem in spoken or written natural language
+       A: rubber duck debugging
+       points: 1200
+     - Q: The use of a newly developed product or service by a company\'s staff to test it before it is made available to customers.
+       A: dogfooding
+       points: 1600
+     - Q: YAGNI
+       A: You aren\'t gonna need it!
+       points: 2000 
+  final:
+  - name: Computer Scientists
+    Q: This Danish computer scientist started developing the C++ programming language in 1979.
+    A: Bjarne Stroustrup
+    id: '30-0'
+  - name: Algorithms
+    Q: This greedy algorithm computes the maximum flow in a flow network.
+    id: '30-1'
+    A: Ford–Fulkerson algorithms
